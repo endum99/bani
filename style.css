@@ -77,7 +77,7 @@ body {
 
 @media (max-width: 500px) {
     .utama h1 {
-        font-size: 2em;
+        font-size: 1.3em;
     }
     .utama p {
         font-size: 1em;
