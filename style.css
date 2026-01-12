@@ -48,6 +48,9 @@ body {
     border-radius: 10px;
     border: 1px solid black;
 }
+.rencana .lokasi h3 {
+    margin-bottom: 10px;
+}
 .rencana .gambar img {
     width: 100%;
     margin-bottom: 10px;
