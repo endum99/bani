@@ -35,12 +35,12 @@ body {
     background-image: url(img/ornamen1.jpg);
     background-position: center;
     background-size: cover;
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
-.rencana .gambar {
+.rencana .gambar, .rencana .lokasi, .rencana .donasi {
     text-align: center;
     background: white;
     padding: 20px;
@@ -53,13 +53,7 @@ body {
     border-radius: 10px;
     border: 3px solid white;
 }
-.rencana .lokasi, .rencana .donasi {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-    text-align: center;
-}
+
 .rencana .gambar a, .rencana .lokasi a {
     text-decoration: none;
     background-color: #000;
