@@ -9,7 +9,30 @@ body {
     background: #ddd;
     padding: 20px;
 }
-
+/* nav */
+.nav {
+    position: fixed;
+    width: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav li {
+    margin-bottom: 30px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    background: green;
+    padding: 3px 6px ;
+    border-radius: 6px;
+}
+.nav a:hover {
+    background: red;
+}
+/* utama */
 .utama {
     background-image: url(img/ornament3.jpg);
     background-size: cover;
@@ -43,7 +66,7 @@ body {
 }
 .rencana .gambar, .rencana .lokasi, .rencana .donasi {
     text-align: center;
-    background: white;
+    background: #ddd;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -76,6 +99,51 @@ body {
 }
 .rencana .donasi img {
     width: 80%;
+}
+
+/* dana */
+#dana {
+    background: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+#dana h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+#dana .masuk h3 {
+    background: red;
+}
+#dana .keluar h3 {
+    background: green;
+    margin-top: 20px;
+}
+#dana img {
+    width: 100%;
+}
+
+/* gallery */
+#gallery {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+#gallery .image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#gallery .image img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px; 
+    border: 2px solid black; 
 }
 
 @media (max-width: 500px) {
