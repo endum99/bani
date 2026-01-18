@@ -100,6 +100,10 @@ body {
     background: green;
     margin-top: 20px;
 }
+#dana .sumbangan h3 {
+    background: blue;
+    margin-top: 20px;
+}
 #dana img {
     width: 100%;
 }
